@@ -1,6 +1,6 @@
-# Mystical Ninja Starring Goemon: Redub Mod
+# Mystical Ninja Starring Goemon: I am Impact Lyrics
 
-This is a mod for Goemon 64: Recompiled that restores the original Japanese voice acting from cutscenes that were removed in the international releases of Mystical Ninja Starring Goemon.
+This is a mod for Goemon 64: Recompiled that alters the lyrics that appear of I am impact! in Mystical Ninja Starring Goemon.
 
 ### Tools
 You'll need to install `clang` and `make` to build this template.
@@ -18,4 +18,7 @@ You'll also need to grab a build of the `RecompModTool` utility from the release
 * Next, run the `RecompModTool` utility with `mod.toml` as the first argument and the build dir (`build` in the case of this template) as the second argument.
   * This will produce your mod's `.nrm` file in the build folder.
   * If you're on MacOS, you may need to specify the path to the `clang` and `ld.lld` binaries using the `CC` and `LD` environment variables, respectively.
-  
+
+
+  Once finished, a prebuilt version of this mod will be placed in Removeifbuilding, IF BUILDING, REMOVE Removeifbuilding. It contains Python code used to generate the text scenarios as kareoke.
+  The python file is really just useful for the specific scenario. heh. heheh. scenario.
