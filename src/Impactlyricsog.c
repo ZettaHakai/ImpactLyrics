@@ -193,7 +193,7 @@ static s16 scenario_text_0610[] = {
 
 static s16 scenario_text_0600[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_I, CTR_CLOSE_EM, CHR_m, CHR_a, PCT_COMMA, PCT_SPACE, CHR_t, CHR_o, CHR_k, CHR_i, CHR_h, CHR_a, CHR_n, CHR_a, CHR_t, CHR_e, CHR_e, CHR_y, CHR_o, CTR_ENDLINE };
 static s16 scenario_text_0601[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_I, CHR_m, CTR_CLOSE_EM, CHR_a, PCT_COMMA, PCT_SPACE, CHR_t, CHR_o, CHR_k, CHR_i, CHR_h, CHR_a, CHR_n, CHR_a, CHR_t, CHR_e, CHR_e, CHR_y, CHR_o, CTR_ENDLINE };
-static s16 scenario_text_0602[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_I, CHR_m, CHR_a, CTR_CLOSE_EM, PCT_COMMA, PCT_SPACE, CHR_t, CHR_o, CHR_k, CHR_i, CHR_h, CHR_a, CHR_n, CHR_a, CHR_t, CHR_e, CHR_e, CHR_y, CHR_o, CTR_ENDLINE };
+static s16 scenario_text_0602[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_I, CHR_m, CHR_a, PCT_COMMA,CTR_CLOSE_EM, PCT_SPACE, CHR_t, CHR_o, CHR_k, CHR_i, CHR_h, CHR_a, CHR_n, CHR_a, CHR_t, CHR_e, CHR_e, CHR_y, CHR_o, CTR_ENDLINE };
 static s16 scenario_text_0603[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_I, CHR_m, CHR_a, PCT_COMMA, PCT_SPACE, CHR_t, CTR_CLOSE_EM, CHR_o, CHR_k, CHR_i, CHR_h, CHR_a, CHR_n, CHR_a, CHR_t, CHR_e, CHR_e, CHR_y, CHR_o, CTR_ENDLINE };
 static s16 scenario_text_0604[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_I, CHR_m, CHR_a, PCT_COMMA, PCT_SPACE, CHR_t, CHR_o, CTR_CLOSE_EM, CHR_k, CHR_i, CHR_h, CHR_a, CHR_n, CHR_a, CHR_t, CHR_e, CHR_e, CHR_y, CHR_o, CTR_ENDLINE };
 static s16 scenario_text_0605[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_I, CHR_m, CHR_a, PCT_COMMA, PCT_SPACE, CHR_t, CHR_o, CHR_k, CTR_CLOSE_EM, CHR_i, CHR_h, CHR_a, CHR_n, CHR_a, CHR_t, CHR_e, CHR_e, CHR_y, CHR_o, CTR_ENDLINE };
@@ -376,14 +376,14 @@ static s16 scenario_text_140B[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, 
 static s16 scenario_text_1510[] = { PCT_SPACE,PCT_SPACE,PCT_SPACE,PCT_SPACE,PCT_SPACE,PCT_SPACE,PCT_SPACE,PCT_SPACE,CHR_A,CHR_a,PCT_COMMA,PCT_SPACE,CHR_I,CHR_M,CHR_P,CHR_A,CHR_K,CHR_U,CHR_T,CHR_O,PCT_EXCLAMATION,CTR_ENDLINE };
 static s16 scenario_text_1500[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CTR_CLOSE_EM, CHR_a, PCT_COMMA, PCT_SPACE, CHR_I, CHR_M, CHR_P, CHR_A, CHR_K, CHR_U, CHR_T, CHR_O, PCT_EXCLAMATION, CTR_ENDLINE };
 static s16 scenario_text_1501[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, CTR_CLOSE_EM, PCT_COMMA, PCT_SPACE, CHR_I, CHR_M, CHR_P, CHR_A, CHR_K, CHR_U, CHR_T, CHR_O, PCT_EXCLAMATION, CTR_ENDLINE };
-static s16 scenario_text_1502[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, PCT_COMMA, PCT_SPACE, CHR_I, CTR_CLOSE_EM, CHR_M, CHR_P, CHR_A, CHR_K, CHR_U, CHR_T, CHR_O, PCT_EXCLAMATION, CTR_ENDLINE };
+static s16 scenario_text_1502[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, PCT_COMMA, PCT_SPACE,CTR_CLOSE_EM, CHR_I,  CHR_M, CHR_P, CHR_A, CHR_K, CHR_U, CHR_T, CHR_O, PCT_EXCLAMATION, CTR_ENDLINE };
 static s16 scenario_text_1503[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, PCT_COMMA, PCT_SPACE, CHR_I, CHR_M, CTR_CLOSE_EM, CHR_P, CHR_A, CHR_K, CHR_U, CHR_T, CHR_O, PCT_EXCLAMATION, CTR_ENDLINE };
 static s16 scenario_text_1504[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, PCT_COMMA, PCT_SPACE, CHR_I, CHR_M, CHR_P, CTR_CLOSE_EM, CHR_A, CHR_K, CHR_U, CHR_T, CHR_O, PCT_EXCLAMATION, CTR_ENDLINE };
 static s16 scenario_text_1505[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, PCT_COMMA, PCT_SPACE, CHR_I, CHR_M, CHR_P, CHR_A, CTR_CLOSE_EM, CHR_K, CHR_U, CHR_T, CHR_O, PCT_EXCLAMATION, CTR_ENDLINE };
 static s16 scenario_text_1506[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, PCT_COMMA, PCT_SPACE, CHR_I, CHR_M, CHR_P, CHR_A, CHR_K, CTR_CLOSE_EM, CHR_U, CHR_T, CHR_O, PCT_EXCLAMATION, CTR_ENDLINE };
 static s16 scenario_text_1507[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, PCT_COMMA, PCT_SPACE, CHR_I, CHR_M, CHR_P, CHR_A, CHR_K, CHR_U, CTR_CLOSE_EM, CHR_T, CHR_O, PCT_EXCLAMATION, CTR_ENDLINE };
 static s16 scenario_text_1508[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, PCT_COMMA, PCT_SPACE, CHR_I, CHR_M, CHR_P, CHR_A, CHR_K, CHR_U, CHR_T, CTR_CLOSE_EM, CHR_O, PCT_EXCLAMATION, CTR_ENDLINE };
-static s16 scenario_text_1509[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, PCT_COMMA, PCT_SPACE, CHR_I, CHR_M, CHR_P, CHR_A, CHR_K, CHR_U, CHR_T, CHR_O, CTR_CLOSE_EM, PCT_EXCLAMATION, CTR_ENDLINE };
+static s16 scenario_text_1509[] = { PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, CTR_EM_YELLOW, CHR_A, CHR_a, PCT_COMMA, PCT_SPACE, CHR_I, CHR_M, CHR_P, CHR_A, CHR_K, CHR_U, CHR_T, CHR_O, PCT_EXCLAMATION, CTR_CLOSE_EM, CTR_ENDLINE };
 
 
 //dash
@@ -439,126 +439,27 @@ s32 scenario_code_impact_og[] = {
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_000A, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
 
     
-
-    // Window 1: M
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0201,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-
-        // Window 1: Mo   
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0202,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-
-        // Window 1: Moe 
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0203,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-
-        // Window 1: Moer
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0204,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-
-        // Window 1: Moeru  
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0205,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x0F, ESR, (s32)&func_8003F460_40060,
-
-        // Window 1: Moeru t  
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0206,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-
-        // Window 1: Moeru ta
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0207,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-
-        // Window 1: Moeru tai 
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0208,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-
-
-        // Window 1: Moeru taiy
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0209,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-
-    // Window 1: Moeru taiyo
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_020A,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x10, ESR, (s32)&func_8003F460_40060,
-
-        // Window 1: Moeru taiyou / se ni ukete    
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_020B,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-
-            // Window 1: Moeru taiyou / se ni ukete  
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_020C,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x0B, ESR, (s32)&func_8003F460_40060,
-
-               // Window 1: Moeru taiyou / se ni ukete  
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_020D,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-
-               // Window 1: Moeru taiyou / se ni ukete  
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_020E,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-
-              // Window 1: Moeru taiyou / se ni ukete  
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_020F,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-               // Window 1: Moeru taiyou / se ni ukete  
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0210,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-
-    // Window 1: Moeru taiyou / se ni ukete  
-      TXT, (s32)&scenario_text_0074,  // new window
-      TXT, (s32)&scenario_text_0004,
-      TXT, (s32)&scenario_text_0211,
-      STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-
-                 // Window 1: Moeru taiyou / se ni ukete  
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0212,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-
-               // Window 1: Moeru taiyou / se ni ukete  
-    TXT, (s32)&scenario_text_0074,  // new window
-    TXT, (s32)&scenario_text_0004,
-    TXT, (s32)&scenario_text_0213,
-    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
-
-    // Window 1: Moeru taiyou / se ni ukete  
-        TXT, (s32)&scenario_text_0074,  // new window
-        TXT, (s32)&scenario_text_0004,
-        TXT, (s32)&scenario_text_0214,
-        STW, (s32)&D_801C7740_1C8340, WTS, 0x20, ESR, (s32)&func_8003F460_40060,
+        // Window 1: Moeru taiyou / se ni ukete 
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0201,    STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060, 
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0202,    STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,   
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0203,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0204,    STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0205,    STW, (s32)&D_801C7740_1C8340, WTS, 0x0F, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0206,    STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0207,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0208,    STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0209,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_020A,    STW, (s32)&D_801C7740_1C8340, WTS, 0x10, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_020B,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_020C,    STW, (s32)&D_801C7740_1C8340, WTS, 0x0B, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_020D,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_020E,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_020F,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0210,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,  
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0211,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0212,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,    TXT, (s32)&scenario_text_0213,    STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,    
+    TXT, (s32)&scenario_text_0074,      TXT, (s32)&scenario_text_0004,     TXT, (s32)&scenario_text_0214,    STW, (s32)&D_801C7740_1C8340, WTS, 0x20, ESR, (s32)&func_8003F460_40060,
 
         // Window 2: Yukuzo hasshin / MASHIN ga unaru sliding
 
@@ -633,7 +534,7 @@ TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenari
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0610, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0600, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0601, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0602, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0602, STW, (s32)&D_801C7740_1C8340, WTS, 0x10, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0603, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0604, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0605, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
@@ -674,7 +575,7 @@ TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenari
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0802, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0803, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0804, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0805, STW, (s32)&D_801C7740_1C8340, WTS, 0x0F, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0805, STW, (s32)&D_801C7740_1C8340, WTS, 0x12, ESR, (s32)&func_8003F460_40060,
 
     // Window 5: breakdown
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0910, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
@@ -688,7 +589,7 @@ TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenari
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0907, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0908, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_0909, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_090A, STW, (s32)&D_801C7740_1C8340, WTS, 0x10, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_090A, STW, (s32)&D_801C7740_1C8340, WTS, 0x15, ESR, (s32)&func_8003F460_40060,
 
     // Window 6: BOWAITSA
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1019, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
@@ -716,73 +617,73 @@ TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenari
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1015, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1016, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
     TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1017, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1018, STW, (s32)&D_801C7740_1C8340, WTS, 0x0F, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1018, STW, (s32)&D_801C7740_1C8340, WTS, 0x11, ESR, (s32)&func_8003F460_40060,
 
     //hishas
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110F, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1100, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1101, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1102, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1103, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1104, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1105, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1106, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1107, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1108, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1109, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110A, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110B, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110C, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110D, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110E, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110F, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1100, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1101, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1102, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1103, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1104, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1105, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1106, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1107, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1108, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1109, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110A, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110B, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110C, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110D, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+    TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_110E, STW, (s32)&D_801C7740_1C8340, WTS, 0x13, ESR, (s32)&func_8003F460_40060,
 
 
     
     // Window 7: genkai powa
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_120D, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1200, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1201, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1202, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1203, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1204, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1205, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1206, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1207, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1208, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1209, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_120A, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_120D, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1200, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1201, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1202, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1203, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1204, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1205, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1206, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1207, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1208, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1209, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_120A, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
             TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_120B, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_120C, STW, (s32)&D_801C7740_1C8340, WTS, 0x0C, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_120C, STW, (s32)&D_801C7740_1C8340, WTS, 0x12, ESR, (s32)&func_8003F460_40060,
 
     // Window 8: punchi
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1310, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1300, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1301, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1302, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1303, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1304, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1305, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1306, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1307, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1308, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1310, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1300, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1301, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1302, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1303, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1304, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1305, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1306, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1307, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1308, STW, (s32)&D_801C7740_1C8340, WTS, 0x02, ESR, (s32)&func_8003F460_40060,
             TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1309, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130A, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130A, STW, (s32)&D_801C7740_1C8340, WTS, 0x04, ESR, (s32)&func_8003F460_40060,
             TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130B, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130C, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130D, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130E, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130F, STW, (s32)&D_801C7740_1C8340, WTS, 0x22, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130C, STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130D, STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130E, STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+            TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_130F, STW, (s32)&D_801C7740_1C8340, WTS, 0x1A, ESR, (s32)&func_8003F460_40060,
 
     // Window 9: gorgeous
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_140C, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1400, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1401, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1402, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1403, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1404, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1405, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1406, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1407, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_140C, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1400, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1401, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1402, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1403, STW, (s32)&D_801C7740_1C8340, WTS, 0x0B, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1404, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1405, STW, (s32)&D_801C7740_1C8340, WTS, 0x0E, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1406, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1407, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1408, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1409, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_140A, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
@@ -792,14 +693,14 @@ TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenari
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1510, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1500, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1501, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1502, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1503, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1504, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1502, STW, (s32)&D_801C7740_1C8340, WTS, 0x0C, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1503, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1504, STW, (s32)&D_801C7740_1C8340, WTS, 0x08, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1505, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1506, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1507, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1508, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1509, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1506, STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1507, STW, (s32)&D_801C7740_1C8340, WTS, 0x06, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1508, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1509, STW, (s32)&D_801C7740_1C8340, WTS, 0x25, ESR, (s32)&func_8003F460_40060,
     //dash2
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_160B, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1600, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
@@ -807,12 +708,12 @@ TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenari
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1602, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1603, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1604, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1605, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1606, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1607, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1608, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1605, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1606, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1607, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1608, STW, (s32)&D_801C7740_1C8340, WTS, 0x03, ESR, (s32)&func_8003F460_40060,
         TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_1609, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
-        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_160A, STW, (s32)&D_801C7740_1C8340, WTS, 0x05, ESR, (s32)&func_8003F460_40060,
+        TXT, (s32)&scenario_text_0074, TXT, (s32)&scenario_text_0004, TXT, (s32)&scenario_text_160A, STW, (s32)&D_801C7740_1C8340, WTS, 0x20, ESR, (s32)&func_8003F460_40060,
 
     // End
     TXT, (s32)&scenario_text_0180,
