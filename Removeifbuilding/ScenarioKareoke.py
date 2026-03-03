@@ -1,22 +1,36 @@
 # Python 3.x
 
-def generate_sliding_arrays_close_only(base_line, start_id=0x900, emphasis="CTR_EM_YELLOW", close="CTR_CLOSE_EM"):
+def generate_sliding_arrays_close_only(base_line_str, start_id=0x000,
+                                       emphasis="CTR_EM_YELLOW",
+                                       close="CTR_CLOSE_EM"):
     arrays = {}
     output_id = start_id
 
-    # First, prepend emphasis at the first letter (or first CHR_)
-    first_letter_index = next((i for i, v in enumerate(base_line) if v.startswith("CHR_")), None)
+    # Split single wrapped string into tokens
+    base_line = base_line_str.split(",")
+
+    # Strip whitespace
+    base_line = [token.strip() for token in base_line]
+
+    # Find first CHR_ token
+    first_letter_index = next(
+        (i for i, v in enumerate(base_line) if v.startswith("CHR_")),
+        None
+    )
+
     if first_letter_index is None:
-        return arrays  # no letters found
+        return arrays
 
     for i, val in enumerate(base_line):
         if not val.startswith("CHR_"):
             continue
 
         line = base_line.copy()
-        # Insert the closing emphasis just after the current letter
+
+        # Insert closing emphasis after current letter
         line.insert(i + 1, close)
-        # Prepend the opening emphasis at the very first letter only once
+
+        # Insert opening emphasis at first letter
         line.insert(first_letter_index, emphasis)
 
         array_name = f"scenario_text_{output_id:04X}"
@@ -34,16 +48,15 @@ def write_arrays_to_file(arrays, filename="scenario_arrays.c"):
     print(f"Written {len(arrays)} arrays to {filename}")
 
 
-# ---------------- Put text within base line with every PCT AND CHR in its own quotation, ----------------
+# ---------------- vvvv Quote Area vvvv----------------
 
-base_line = [
-    "PCT_SPACE", "PCT_SPACE", "PCT_SPACE", "PCT_SPACE", "PCT_SPACE", "PCT_SPACE", "PCT_SPACE",
-    "CHR_B", "CHR_U", "CHR_R", "CHR_E", "CHR_I", "CHR_K", "CHR_U",
-    "PCT_SPACE",
-    "CHR_D", "CHR_A", "CHR_U", "CHR_N", "PCT_EXCLAMATION",
-    "CTR_ENDLINE"
+base_line = """
+PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE, PCT_SPACE,
+CHR_B, CHR_U, CHR_R, CHR_E, CHR_I, CHR_K, CHR_U,
+PCT_SPACE,
+CHR_D, CHR_A, CHR_U, CHR_N, PCT_EXCLAMATION,
+CTR_ENDLINE
+"""
 
-    ]
-
-arrays = generate_sliding_arrays_close_only(base_line, start_id=0x900)
+arrays = generate_sliding_arrays_close_only(base_line, start_id=0x000)
 write_arrays_to_file(arrays, filename="scenario_arrays.c")
