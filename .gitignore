@@ -11,3 +11,8 @@
 patches.map
 build/
 .vscode/settings.json
+Removeifbuilding/scenario_arrays.c
+Removeifbuilding/ScenarioKareoke.py
+Removeifbuilding/ScenarioKareoke.py
+/Removeifbuilding
+src/hook.h
